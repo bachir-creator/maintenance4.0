@@ -1,0 +1,6 @@
+@echo off
+echo Installation des dependances...
+pip install -q -r requirements.txt
+echo Lancement de l'application...
+streamlit run app.py
+pause
